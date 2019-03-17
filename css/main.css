@@ -1,0 +1,215 @@
+body {
+	font-family: 'Indie Flower', cursive;
+}
+* ul li:hover {
+	font-size: 1.4rem;
+	
+}
+
+
+/*///////////////*/
+.background-nav {
+	background-color: #A6D2DB;
+}
+.navbar-nav ul li:hover {
+	background: #A6D2DB;
+	
+}
+
+.navbar-brand {
+	font-size: 1.7rem;
+}
+
+/*///////////*/
+div.carousel-inner {
+	/*height:  700px;*/
+	width: 100%;
+	/*margin-bottom:2%;*/
+}
+div.carousel-inner img {
+	object-fit: cover;
+}
+
+/*////////////////*/
+div.card {
+	text-align: center;
+	border-top: 0;
+}
+
+/*/?///////////////*/
+
+.section2 {
+	background-color:  #A6D2DB;
+	color: #fff;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	padding: 0% 10%;
+
+}
+.section2 h1{
+	margin: auto;
+	margin-bottom:  4%;
+	margin-top: 4%;
+}
+.section2 ul {
+ margin: auto;
+}
+.section2 p {
+ padding: 0% 15%;
+ font-size: 0.7rem;
+}
+.section2 ul li{
+	display: inline-block;
+	
+	margin: auto;
+	border: 1px solid #fff;
+	padding: 5px 15px;
+	border-radius: 7%;
+	margin: 0 5px;
+	margin-bottom: 4%;
+}
+.section2 ul li:hover {
+	background: #fff;
+	color: #A6D2DB;
+}
+.section2 img {
+	height: 130px;
+	width: 100%;
+}
+.section2 .row-2 {
+	margin-bottom: 4%;
+}
+.section2 button {
+	background-color: #A6D2DB;
+	color: #fff;
+	border: none;
+	margin-top: 4%;
+}
+.section2 button:hover {
+	background: #fff;
+	color: #A6D2DB;
+}
+/*//////////*/
+.jumbotron{
+	height: 400px;
+
+}
+.jumbotron div.right{
+	padding:  0% 10%;
+
+}
+.jumbotron div.right button{
+	padding:  4px;
+
+}
+.jumbotron p{
+	font-size: 0.9rem;
+}
+, .jumbotron h1{
+	font-size: 1rem;
+}
+.jumbotron img {
+	width: 100%;
+
+}
+
+
+
+.jumbotron div.left {
+	width: 30%;
+	float: left;
+	display: inline-block;
+}
+
+
+
+.jumbotron div.right1 {
+	width: 30%;
+	float: left;
+	display: inline-block;
+}
+.jumbotron div.left1{
+	padding:  0% 10%;
+
+}
+.jumbotron div.left1 {
+	width: 70%;
+	float: left;
+	display: inline-block;
+}
+
+
+
+.jumbotron div.right {
+	width: 70%;
+	float: left;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 780px){
+		.section2 div img{
+			padding-top: 4%;
+			width: 100%;
+			height: 300px;
+
+	}
+	.section2 div.row-2 {
+		display: none;
+	}
+	#spit {
+		padding-top: 0px;
+	}
+	.section2 ul li {
+		padding: 3px 6px;
+		margin: 1px;
+		font-size: 0.9rem;
+		
+
+		} 
+		.section2 ul  {
+		
+		padding-left: 0px;
+
+		} 
+	    .row-cards {
+
+	    }
+
+}
+@media(max-width: 577px){
+
+	.jumbotron div.right  p {
+		font-size:0.85rem;
+	}
+	.jumbotron div.right h1 {
+		font-size: 1.3rem;
+		padding-top: 4%;
+	}
+	.jumbotron {
+		height: 500px;
+		text-align: center;
+	}
+	.jumbotron div.left{
+		width: 100%;
+	}
+	.jumbotron div.right{
+		width: 100%;
+	}
+	
+}
+/*@media(min-width: 767px) and (max-width: ){
+	.section2 img {
+		width: 200%;
+	}
+}*/
